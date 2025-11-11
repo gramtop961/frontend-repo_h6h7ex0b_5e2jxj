@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-sky-50">
       <div className="text-center p-8 rounded-2xl shadow-sm bg-white border border-slate-100">
-        <h1 className="text-4xl font-bold text-slate-800">Hello, World! 👋</h1>
+        <h1 className="text-4xl font-bold text-red-600">Hello, World! 👋</h1>
         {apiMessage && (
-          <p className="mt-4 text-slate-600">Backend says: <span className="font-semibold">{apiMessage}</span></p>
+          <p className="mt-4 text-red-500">Backend says: <span className="font-semibold">{apiMessage}</span></p>
         )}
         <a href="/test" className="inline-block mt-6 text-sm text-white bg-sky-600 hover:bg-sky-700 px-4 py-2 rounded transition-colors">Check backend & database</a>
       </div>
